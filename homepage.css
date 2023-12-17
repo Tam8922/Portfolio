@@ -1,8 +1,16 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
 }
 
+/* nav */
 .nav-background {
     background-color: rgba(255, 255, 255, 0.7);
     border-radius: 20px;
@@ -30,13 +38,15 @@ nav a {
     color: black;
     font-family: 'Handjet', sans-serif;
     font-size: 22px;
-    font-weight: 500;
+    font-weight: 400;
     margin: 0 40px;
 }
 
+/* hero */
 .background {
-    height: 80vh;
+    height: auto;
     width: 100%;
+    padding: 20px 0;
     position: absolute;
     top: 0;
     left: 0;
@@ -44,7 +54,7 @@ nav a {
 }
 
 .hero-container {
-    margin: 10% auto;
+    margin: 200px auto;
     width: 45%;
     position: relative;
     z-index: 2;
@@ -62,49 +72,140 @@ nav a {
 }
 
 .hero-container h1 {
-    font-weight: 700;
-    font-size: 50px;
+    font-family: 'Handjet', sans-serif;
+    font-weight: 600;
+    font-size: 60px;
     margin: 10px auto;
 }
 
 .hero-container button {
     font-family: 'Handjet', sans-serif;
-    font-size: 22px;
+    font-size: 25px;
     margin: 10px auto;
     padding: 8px 15px;
     border-radius: 20px;
 }
 
+/* softwares */
+.softwares, .my-work {
+    margin: 20px 100px 10px 100px;
+}
+
+.softwares h1, .my-work h1 {
+    font-family: 'Handjet', sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.software-icons {
+    display: flex;
+}
+
+.software-icons img {
+    padding: 0 1.5rem;
+    max-width: 100%; 
+    height: 80px; 
+}
+
+/* footer*/
+footer {
+   margin-top: auto;
+   padding: 40px 10px 10px;
+   position: static;
+   text-align: center;
+   font-family: 'Handjet', sans-serif;
+}
+
+footer h1 {
+    font-weight: 500;
+    margin: 10px auto;
+}
+
+footer h3 {
+    font-weight: 300;
+    margin: 10px auto;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 0;
+}
+
+
 
 
 @media (max-width: 600px) {
+    /* nav */
     .nav-background {
         width: 90%;
     }
 
     nav a {
         margin: 0 25px;
+        padding: 5px 0;
+        font-weight: 500;
+        font-size: 22px;
     }
 
+    .nav-background {
+        height: fit-content;
+        padding: 10px 0;
+    }
+
+    /* hero */
     .background {
-        height: 550px;
+        height: 600px;
     }
 
     .hero-container {
-        margin-top: 30%;
+        margin: 38% auto;
         width: 70%;
     }
 
-    .hero-container h3 {
-        font-size: 18px;
+    .hero-container h3, footer h3 {
+        font-size: 20px;
+        font-weight: 500;
     }
 
     .hero-container h1 {
-        font-size: 32px;
+        font-size: 35px;
+        font-weight: 600;
     }
 
     .hero-container button {
-        font-size: 18px;
+        font-size: 20px;
+        font-weight: 500;
+        color: black;
+    }
+
+    /* sofwares */
+    .softwares {
+        margin: 0 25px;
+    }
+
+    .softwares h1 {
+        font-size: 35px;
+        font-weight: 600;
+    }
+
+    .software-icons {
+        height: 50px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); /* Create a grid with 4 columns */
+        gap: 1rem;
+        margin-bottom: 40%;
+    }
+
+    .software-icons img {
+        padding: 0;
+    }
+
+    /* footer */
+    footer h1 {
+        font-size: 28px;
+        font-weight: 600;
     }
 }
 
