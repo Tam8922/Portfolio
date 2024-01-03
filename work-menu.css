@@ -1,0 +1,33 @@
+.card-container {
+    margin-top: 15%;
+}
+
+.card-container h1 {
+    font-family: 'Handjet', sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.card {
+    margin-top: 30px;
+    background-color:rgb(226, 226, 226);
+    font-family: 'Abel', sans-serif;
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.card h5 {
+    font-weight: 900;
+}
+
+.card a {
+    background-color: rgb(17, 24, 39);
+    border-color: rgb(17, 24, 39);
+}
+
+.card a:hover {
+    background-color: rgb(27, 39, 66);
+    border-color: rgb(27, 39, 66);
+    box-shadow: -1px 2px 4px 0px rgba(0, 0, 0, 0.60);
+}

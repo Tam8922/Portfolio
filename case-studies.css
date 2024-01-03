@@ -1,0 +1,231 @@
+/* nav on white page */
+.nav-background {
+    background-color: rgb(0, 22, 70);
+    border-radius: 20px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    z-index: 2;
+}
+
+nav ul {
+    display: flex;
+    margin: auto;
+    padding: 0;
+} 
+
+nav a {
+    color: white;
+    font-family: 'Handjet', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 0 40px;
+}
+
+/* body alignment */
+.whole-container {
+    margin: 20px 100px 10px 100px;
+}
+
+
+/* start: travel app case study */
+.cs-hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    
+}
+
+.cs-hero-content h1 {
+    font-family: 'Handjet', sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.cs-hero-content img {
+    width: 40%;
+}
+
+.hero-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    font-family: 'Handjet', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+} 
+
+.project-overview, .user-research, .definition-ideation, .prototyping, .testing-iterating {
+    font-family: 'Abel', sans-serif;
+}
+
+.project-overview li, .testing-iterating li {
+    margin-bottom: 10px;
+} 
+
+.user-research h2, .definition-ideation h2, .prototyping h2, .testing-iterating h2 {
+    font-family: 'Handjet', sans-serif;
+    font-size: 38px;
+    font-weight: 500;
+    margin-top: 80px; 
+    margin-bottom: 10px;
+} 
+
+.user-research img, .definition-ideation img, .prototyping img, .testing-iterating img {
+    max-width: 80%;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    margin-top: 20px;
+} 
+
+
+.section-container {
+    font-family: 'Abel', sans-serif;
+    background-color: rgb(226, 226, 226);
+    max-width: 100% !important;
+    margin-bottom: 60px;
+    padding: 30px;
+    border-radius: 50px;
+}
+
+.section-container img {
+    display: flex;
+    margin: 0 auto;
+    max-width: 70%
+}
+
+.collapse-container button {
+    width: fit-content;
+    height: 50px;
+    background: none;
+    border: solid 2px rgb(0, 22, 70);
+    border-radius: 5px;
+    color: rgb(0, 22, 70);
+    font-family: "Hind Siligui", sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 30px auto;
+}
+
+.collapse-container button:hover {
+    border-radius: 5px;
+    border: 1px solid rgb(0, 22, 70);
+    box-shadow: -1px 2px 4px 0px rgba(0, 0, 0, 0.60);
+}
+
+.collapse-container button:focus {
+    outline: none;
+}
+
+.collapse-card-body {
+    margin-bottom: 40px;
+    margin-top: 0;
+}
+
+
+/* footer*/
+footer {
+    margin-top: auto;
+    padding: 40px 10px 10px;
+    position: static;
+    text-align: center;
+    font-family: 'Handjet', sans-serif;
+    border-top: 1px solid rgba(225, 225, 225, 1);
+ }
+ 
+ footer h1 {
+     font-weight: 500;
+     font-size: 30px;
+     margin: 10px auto;
+ }
+ 
+ footer h3 {
+     font-weight: 300;
+     font-size: 20px;
+     margin: 10px auto;
+ }
+ 
+ .social-links {
+     display: flex;
+     justify-content: center;
+     gap: 15px;
+     padding: 0;
+ }
+ 
+
+
+/* media for smaller screens */
+@media (max-width: 600px) {
+    .whole-container {
+        margin: auto 5%;
+    }
+
+    .cs-hero-container {
+        padding-bottom: 10px !important;
+        margin-top: 10%;
+    }
+
+    .cs-hero-content img {
+        width: 90%;
+        margin: 0;
+        padding: 0;
+    }
+    .cs-hero-content h1 {
+        font-size: 35px;
+    }
+
+    .hero-list {
+        font-size: 16px;
+    }
+
+    .user-research h2, .definition-ideation h2, .prototyping h2, .testing-iterating h2 {
+        font-size: 30px;
+        margin-top: 40px;
+    }
+
+    .whole-container p, .whole-container h4, .whole-container h5 {
+        font-size: 18px;
+    }
+
+    .collapse-container button {
+        font-size: 12px;
+    }
+
+    .user-research img, .definition-ideation img, .prototyping img, .testing-iterating img {
+        margin: 0 auto;
+        max-width: 100%;
+    }
+
+    .section-container {
+        margin-bottom: 40px;
+    }
+}
+
+
+
+/* media for larger screens */
+@media (min-width: 2000px) {
+    .cs-hero-content img {
+        width: 30%;
+    }
+
+    .user-research img, .definition-ideation img, .prototyping img, .testing-iterating img {
+        max-width: 40%;
+    }
+
+    .section-container img {
+        max-width: 55%;
+    }
+}
