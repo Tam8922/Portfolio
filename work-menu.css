@@ -1,5 +1,9 @@
+.whole-container {
+    margin: 20px 100px 10px 100px;
+}
+
 .card-container {
-    margin-top: 15%;
+    margin-top: 10%;
 }
 
 .card-container h1 {

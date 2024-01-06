@@ -1,49 +1,15 @@
-/* nav on white page */
-.nav-background {
-    background-color: rgb(0, 22, 70);
-    border-radius: 20px;
-    margin: 40px auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    height: 50px;
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 50%;
-    z-index: 2;
-}
-
-nav ul {
-    display: flex;
-    margin: auto;
-    padding: 0;
-} 
-
-nav a {
-    color: white;
-    font-family: 'Handjet', sans-serif;
-    font-size: 22px;
-    font-weight: 400;
-    margin: 0 40px;
-}
-
 /* body alignment */
 .whole-container {
     margin: 20px 100px 10px 100px;
 }
 
-
-/* start: travel app case study */
+/* start: case study */
 .cs-hero-content {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     margin: 0 auto;
-    
 }
 
 .cs-hero-content h1 {
@@ -53,7 +19,7 @@ nav a {
 }
 
 .cs-hero-content img {
-    width: 40%;
+    width: 60%;
 }
 
 .hero-list {
@@ -78,9 +44,13 @@ nav a {
     font-family: 'Handjet', sans-serif;
     font-size: 38px;
     font-weight: 500;
-    margin-top: 80px; 
+    margin-top: 50px; 
     margin-bottom: 10px;
 } 
+
+.user-research p, .definition-ideation p, .prototyping p, .testing-iterating p,.user-research li, .definition-ideation li, .prototyping li, .testing-iterating li{
+    font-size: 17px;
+}
 
 .user-research img, .definition-ideation img, .prototyping img, .testing-iterating img {
     max-width: 80%;
@@ -90,10 +60,28 @@ nav a {
     margin-top: 20px;
 } 
 
+.post-its {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap; 
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.post-its p {
+    font-size: 1.1vw;
+    width: 180px;
+    height: 90px;
+    padding:  10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+}
 
 .section-container {
     font-family: 'Abel', sans-serif;
-    background-color: rgb(226, 226, 226);
     max-width: 100% !important;
     margin-bottom: 60px;
     padding: 30px;
@@ -110,10 +98,10 @@ nav a {
     width: fit-content;
     height: 50px;
     background: none;
-    border: solid 2px rgb(0, 22, 70);
+    border: solid 2px rgb(37, 69, 85);
     border-radius: 5px;
-    color: rgb(0, 22, 70);
-    font-family: "Hind Siligui", sans-serif;
+    color: rgb(37, 69, 85);
+    font-family: "Abel", sans-serif;
     font-size: 14px;
     cursor: pointer;
     margin: 30px auto;
@@ -121,7 +109,7 @@ nav a {
 
 .collapse-container button:hover {
     border-radius: 5px;
-    border: 1px solid rgb(0, 22, 70);
+    border: 1px solid rgb(37, 69, 85);
     box-shadow: -1px 2px 4px 0px rgba(0, 0, 0, 0.60);
 }
 
@@ -134,42 +122,24 @@ nav a {
     margin-top: 0;
 }
 
-
-/* footer*/
-footer {
-    margin-top: auto;
-    padding: 40px 10px 10px;
-    position: static;
-    text-align: center;
-    font-family: 'Handjet', sans-serif;
-    border-top: 1px solid rgba(225, 225, 225, 1);
- }
- 
- footer h1 {
-     font-weight: 500;
-     font-size: 30px;
-     margin: 10px auto;
- }
- 
- footer h3 {
-     font-weight: 300;
-     font-size: 20px;
-     margin: 10px auto;
- }
- 
- .social-links {
-     display: flex;
-     justify-content: center;
-     gap: 15px;
-     padding: 0;
- }
- 
+.link-to-full-cs {
+    font-family: "Abel", sans-serif;
+}
 
 
 /* media for smaller screens */
 @media (max-width: 600px) {
-    .whole-container {
+    .whole-container{
         margin: auto 5%;
+    }
+
+    .cs-hero-content {
+        width: 100%;
+        padding-bottom: 0 !important;
+    }
+
+    .hero-list {
+        text-align: center;
     }
 
     .cs-hero-container {
@@ -178,25 +148,37 @@ footer {
     }
 
     .cs-hero-content img {
-        width: 90%;
-        margin: 0;
+        width: 400px;
+        margin-top: 20px;
         padding: 0;
     }
     .cs-hero-content h1 {
-        font-size: 35px;
+        font-size: 40px;
+        text-align: center;
     }
 
     .hero-list {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .user-research h2, .definition-ideation h2, .prototyping h2, .testing-iterating h2 {
-        font-size: 30px;
+        font-size: 35px;
         margin-top: 40px;
     }
 
+    .project-overview h4, .user-research h4, .definition-ideation h4, .prototyping h4, .testing-iterating h4 {
+        font-size: 20px !important;
+        font-weight: bold;
+    }
+
+    .project-overview h5, .user-research h5, .definition-ideation h5, .prototyping h5, .testing-iterating h5 {
+        font-size: 18px !important;
+        font-weight: bold;
+        margin-top: 25px !important;
+    }
+
     .whole-container p, .whole-container h4, .whole-container h5 {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .collapse-container button {
@@ -210,6 +192,11 @@ footer {
 
     .section-container {
         margin-bottom: 40px;
+    }
+
+    .collapse-container button {
+        font-size: 16px;
+        margin: 0;
     }
 }
 

@@ -12,7 +12,6 @@ body {
 
 /* nav */
 .nav-background {
-    background-color: rgba(255, 255, 255, 0.7);
     border-radius: 20px;
     margin: 40px auto;
     display: flex;
@@ -54,7 +53,7 @@ nav a {
 }
 
 .hero-container {
-    margin: 200px auto;
+    margin: 180px auto;
     width: 45%;
     position: relative;
     z-index: 2;
