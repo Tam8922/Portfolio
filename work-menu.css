@@ -35,3 +35,25 @@
     border-color: rgb(27, 39, 66);
     box-shadow: -1px 2px 4px 0px rgba(0, 0, 0, 0.60);
 }
+
+/* media for smaller screens */
+@media (max-width: 600px) {
+    .whole-container{
+        margin: auto 5%;
+    }
+
+    .card-container {
+        margin-top: 150px;
+    }
+
+    .card-container h1 {
+        text-align: center;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        margin: 20px auto;
+    }
+    
+}
