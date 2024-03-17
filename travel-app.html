@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel app case study</title>
+    <style>
+       @import url('https://fonts.googleapis.com/css2?family=Abel&family=Handjet:wght@100;200;300;400;500;600;700;800;900&display=swap');
+    </style>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="./portfolio.js" defer></script> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./homepage.css"> <!-- homepage css stylesheet -->
+    <link rel="stylesheet" href="./case-studies.css"> <!-- travel app css stylesheet -->
+</head>
+<body>
+    
+
+    <!-- NAVIGATION -->
+    <div class="nav-background fixed top-0 left-1/2 sm:top-6 sm:h-[3.25rem] sm:w-[36rem] sm:rounded-ful" style="background-color: rgb(37, 69, 85);">
+      <nav class="flex fixed top-[0.15rem] left-1/2 h-12 -translate-x-1/2 py-2 sm:top-[1.7rem] sm:h-[initial] sm:py-0">
+          <ul>
+              <a style="color: white; text-decoration: none;" href="./index.html"><li style="text-decoration: none; list-style: none;">Home</li></a>
+              <a style="color: white; text-decoration: none;" href="./about-me.html"><li style="text-decoration: none; list-style: none;">About</li></a>
+              <a style="color: white; text-decoration: none;" href="./work-menu.html"><li style="text-decoration: none; list-style: none;">Work</li></a>
+              <a style="color: white; text-decoration: none;" href="https://drive.google.com/file/d/15mGdMuccz8ccS6afsANUnZSn1waaqA5V/view?usp=drive_link" target="_blank"><li style="text-decoration: none; list-style: none;">Résumé</li></a>
+            </ul>
+      </nav>
+      </div>
+   
+    <div class="whole-container">
+    <!-- case study hero -->
+    <div class="p-5 mb-4 bg-body-tertiary rounded-3 cs-hero-container" style="padding-bottom: 0 !important;">
+        <div class="container-fluid py-5 cs-hero-content">
+          <h1 class="display-5 fw-bold">The UX of a Travel App</h1>
+        <div class="hero-list">
+          <li>June 2023</li>
+          <li>UX Design</li>
+          <li>Individual Project</li>
+          <li>Bootcamp</li>
+        </div >
+          <img src="./Images/Travel app/travel-app- mockup-1.png" alt="travel-app-mockup">
+        </div>
+      </div>
+      <!-- end -->
+
+      <div class="project-overview">
+        <h4>PROJECT OVERVIEW</h4>
+        <p>Objective of this design was to create an app which would help users find local experiences at their choice of destination, simultaneously providing healthy and safety information.</p>
+        <h5>My responsibilities:</h5>
+        <li>Conducting user research</li>
+        <li>Prototyping wireframes</li>
+        <li>Conducting usability testing</li>
+        <li>Iterating designs</li>
+        <p>Time: 4 weeks</p>
+      </div>
+
+      <section class="user-research">
+        <h2>User Research</h2>
+        <h4>WHAT IS THIS PROJECT ABOUT?</h4>
+        <h5>The problem:</h5>
+            <p>Trip booking and itinerary management prior to travel can be such a tedious task. Having to do tons of research, on top of that, using various platforms can become overwhelming and tiring. But most importantly, those who are looking to explore outside of the norm for local experiences face the most difficulties. Finding a reliable source with relevant and crucial health and safety information, especially since the COVID-19 pandemic, becomes a mission. Therefore, understanding this, how could we help travellers find and decrease the time it takes to research for authentic local experiences, as well as, then manage their itinerary?</p>
+        <h5>The objective:</h5>
+            <p>The objective is to design an app which allows users to find authentic and safe local experiences adding to their itinerary, and ensuring effective management of their in-app itinerary?</p>
+            <p>This can be done...</p>
+            <div class="post-its">
+              <p style="background-color: rgb(37, 69, 85); color: white;">Optimal features enhancing decision-making</p>
+              <p style="background-color: rgb(37, 69, 85); color: white;">Challenges or pain points of itinerary management</p>
+              <p style="background-color: rgb(37, 69, 85); color: white;">Changes in planning post-pandemic trips</p>
+            </div>
+        <h4>HOW WAS THE RESEARCH DONE?</h4>
+        <h5>Methodology:</h5>
+            <p>It was only feasible to ask the people themselves about what their opinions and frustrations about post-pandemic travel were. Therefore, using qualitative methodology, I planned and conducted five 1v1 interviews with potential users who enjoy travelling and have travelled since the COVID-19 pandemic.</p>
+            <p>I asked a series of 14 questions, followed by probing questions where necessary, in correspondence to the research objectives:</p>
+            <div class="post-its">
+              <p style="background-color: rgb(37, 69, 85); color: white;">Trip planning process and challenges</p>
+              <p style="background-color: rgb(37, 69, 85); color: white;">Post-pandemic concerns whilst travelling</p>
+            </div>
+
+        <!-- collapse button -->
+        <p class="d-inline-flex gap-1 collapse-container">
+          <button type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+            WHAT DID THE PEOPLE HAVE TO SAY?
+          </button>
+        </p>
+        <div class="collapse" id="collapseExample">
+          <div class="card collapse-card-body">
+            <img src="./Images/Travel app/interviews.svg" alt="interviews">
+          </div>
+        </div>
+        <!-- collapse end -->
+
+        <h5>Analysing the data:</h5>
+            <p>After collecting and transcribing the interviews, the data was analysed using an affinity diagram approach. Much like a thematic analysis conducted in psychological research, I translated each interview into codes which best conveyed the answers to my research objectives. Thereafter, amalgamating the data revealed sever themes…</p>
+            <div class="post-its">
+              <p style="background-color: rgb(37, 69, 85); color: white;">Wants to avoid overspending</p>
+              <p style="background-color: rgb(37, 69, 85); color: white;">Wants to experience local life</p>
+              <p style="background-color: rgb(37, 69, 85); color: white;">COVID-19 and general safety are a priority</p>
+              <p style="background-color: rgb(37, 69, 85); color: white;">Needs to be well informed before traveling</p>
+              <p style="background-color: rgb(37, 69, 85); color: white;">Using multiple sources becomes overwhelming</p>
+              <p style="background-color: rgb(37, 69, 85); color: white;">Needs to have some sort of idea of what they'll be doing</p>
+            </div>
+      </section>
+
+      <section class="definition-ideation">
+        <h2>Definition and Ideation</h2>
+        <h4>READING THE USER'S MIND...</h4> 
+        <h5>User insight statement:</h5>
+            <p>Jimmy Yong (the user) needs to find a simple interface which allows travellers to find out information about local experience because of his goal to make lasting memories with new people.</p>
+            <p>During the interviews, I discovered that the majority of the individuals did not only express their desire to experience the local culture and their frustrations with lack of safety information, especially since the COVID-19 pandemic, but also most strongly disliked doing research but wanted some sort of itinerary plan.</p>
+            <p>Therefore, I believe that people need help in cutting down their time on doing tedious research and that I might be able to help if I develop an app which will provide all necessary information available when booking a trip and help with itinerary management.</p>
+            <p>This helps to pinpoint the problem users are facing when it comes to wanting to travelling like a local. That is, many travellers looking to travel for local experiences find it difficult to find valuable information about these experiences, and are poorly informed about the health and safety regulations are the location, especially concerned about the COVID-19 pandemic.</p>
+        <h4>SO, WHAT FEATURES MUST WE INCLUDE?</h4>
+            <p>Using the I Like, I Wish, What If methodology of existing and non-existing features in apps currently available, I took the non-traditional route and decided to highlight the most promising features. These features were those that best met the pain-points and needs discovered during the research. 
+            This included…</p>
+            <div class="post-its">
+              <p style="background-color: rgb(37, 69, 85); color: white;">Availability of live navigation</p>
+              <p style="background-color: rgb(37, 69, 85); color: white;">Peak times shown to avoid crowds</p>
+              <p style="background-color: rgb(37, 69, 85); color: white;">View other people's itinerary</p>
+              <p style="background-color: rgb(37, 69, 85); color: white;">Be well informed about COVID-19 expectations</p>
+              <p style="background-color: rgb(37, 69, 85); color: white;">Pictures to know what to expect</p>
+              <p style="background-color: rgb(37, 69, 85); color: white;">Recommendations of local places</p>
+              <p style="background-color: rgb(37, 69, 85); color: white;">Information in bullet points</p>
+              <p style="background-color: rgb(37, 69, 85); color: white;">Interactive map which shows you places to visit</p>
+            </div>
+            <p>These features were then prioritiesed in feature prioritisation matrix.</p>
+        <h4>APP BRANDING</h4>
+            <img src="./Images/Travel app/app-branding.svg" alt="value proposition statement">
+      </section>
+
+      <section class="prototyping">
+        <h2>Prototyping</h2>
+        <div class="section-container" style="background-color: rgb(37, 69, 85,.3);">
+            <h4>WHAT WOULD IT LOOK LIKE?</h4>
+            <img src="./Images/Travel app/prototypes-1.svg" alt="prototypes">
+        </div>
+      </section>
+
+      <section class="testing-iterating">
+        <h2>Testing and Iterating</h2>
+        <h5>Research objective:</h5>
+            <p>In order to test the first prototype, guerilla testing was carried out testing usability.</p>
+            <p>Testing if users can find local experiences and both a booking and save the experience, using the search bar and home page.</p>
+        <h5>Key question to answer:</h5>
+            <p>Are users able to book and save a local experience using various approach and options, as well as navigate the itinerary in the app?</p>
+        <h4>WHAT WAS TESTED?</h4>
+            <p>Users were asked to complete five simple task, which asked how would you…</p>
+            <div class="post-its">
+              <p style="background-color: rgb(37, 69, 85); color: white;">Reach the homepage</p>
+              <p style="background-color: rgb(37, 69, 85); color: white;">Book a local experience and a tour guide</p>
+              <p style="background-color: rgb(37, 69, 85); color: white;">Save experience to in-app itinerary</p>
+              <p style="background-color: rgb(37, 69, 85); color: white;">Use the search bar and filter options</p>
+              <p style="background-color: rgb(37, 69, 85); color: white;">Access and navigate through the itinerary</p>
+            </div>
+        <h4>WHAT PATTERNS EMERGED FROM TESTING?</h4>
+            <p>After conducted guerrilla tests and analysing them using affinity diagram and feature prioritisation, I've noticed that there are functionality difficulties that need to be improved, but there are also features that work.</p> 
+            <div class="post-its">
+              <p style="border-style: dashed; border-color: rgb(255, 0, 0); background-color: rgb(255, 0, 0, .2); color: black;">Information overload on certain pages</p>
+              <p style="border-style: dashed; border-color: rgb(255, 0, 0); background-color: rgb(255, 0, 0, .2); color: black;">Had some trouble navigating the itinerary</p>
+              <p style="border-style: dashed; border-color: rgb(255, 0, 0); background-color: rgb(255, 0, 0, .2); color: black;">Somewhat unsure if they had reached the homepage</p>
+              <p style="border-style: dashed; border-color: rgb(255, 0, 0); background-color: rgb(255, 0, 0, .2); color: black;">Confused about the booking the tour guide page</p>
+            </div>
+            
+            <div class="post-its">
+              <p style="border-style: dashed; border-color: rgb(0, 0, 255); background-color: rgb(0, 0, 255, .05); color: black;">Quick and easy options to help reach the home page</p>
+              <p style="border-style: dashed; border-color: rgb(0, 0, 255); background-color: rgb(0, 0, 255, .05); color: black;">Information layout encouraged scrolling</p>
+              <p style="border-style: dashed; border-color: rgb(0, 0, 255); background-color: rgb(0, 0, 255, .05); color: black;">Helpful icons and buttons navigated the user</p>
+              <p style="border-style: dashed; border-color: rgb(0, 0, 255); background-color: rgb(0, 0, 255, .05); color: black;">Liked the booking experience directly available from itinerary</p>
+            </div>
+
+        <h4>ITERATIONS MADE...</h4>
+            <p>No iterations were made to the user flow because I found the app flowed as suggested by the flow, however, iterations needed to be made to some features and pages on the digital wireframes.</p>
+            <p>Changes mades</p>
+            <li>Home page</li>
+            <li>Search page</li>
+            <li>Picking a tour guide</li>
+            <li>Itinerary pages - layout + added coaching</li>
+            <li>Added a tour guide information page (leading from the itinerary)</li>
+      </section>
+
+      <div class="section-container" style="background-color: rgb(37, 69, 85,.3);">
+            <h4>The final look?</h4>
+            <img src="./Images/Travel app/prototypes-2.png" alt="prototypes">
+        </div>
+   
+        <div class="link-to-full-cs">
+          <p>Want more detail? <a href="https://docs.google.com/presentation/d/1Wn9HzXQ0uW-ew7EWfsF5qMW2Ei1LWsguwvY88iLB0ks/edit?usp=sharing" target="_blank"> Click here</a> to read the whole case study.</p>
+        </div>
+
+    <!-- FOOTER -->
+    <footer id="footer">
+        <h1>Let's chat!</h1>
+        <h3>Looking for a UX UI designer or want to just chat over some coffee? Shoot me a message!</h3>
+        <h3>Email: tanpreetdhani@gmail.com</h3>
+    <ul class="social-links">
+      <li style="text-decoration: none; list-style: none;"><a href="./index.html"><img src="./Images/home-icon.svg" alt="home logo" width="30px" height="auto"></a></li>
+        <li style="text-decoration: none; list-style: none;"><a href="https://www.linkedin.com/in/tanpreet-dhani-423b97169/" target="_blank"><img src="./Images/brand-linkedin.svg" alt="linkedin logo" width="30px" height="auto"></a></li>
+        <li style="text-decoration: none; list-style: none;"><a href="https://drive.google.com/file/d/15mGdMuccz8ccS6afsANUnZSn1waaqA5V/view?usp=sharing" target="_blank"><img src="./Images/6588143.png" alt="resume logo" width="30px" height="auto"></a></li>
+    </ul>
+    </footer>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top" style="background-color: rgb(65, 112, 135);"><img src="./Images/Scroll-up-arrow.svg" alt=""></button>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+</html>

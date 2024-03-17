@@ -1,0 +1,236 @@
+/* body alignment */
+.whole-container {
+    margin: 20px 100px 10px 100px;
+}
+
+/* start: case study */
+.cs-hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.cs-hero-content h1 {
+    font-family: 'Handjet', sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.cs-hero-content img {
+    width: 60%;
+}
+
+.hero-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    font-family: 'Handjet', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+} 
+
+.project-overview, .user-research, .definition-ideation, .prototyping, .testing-iterating {
+    font-family: 'Abel', sans-serif;
+}
+
+.project-overview li, .testing-iterating li {
+    margin-bottom: 10px;
+} 
+
+.user-research h2, .definition-ideation h2, .prototyping h2, .testing-iterating h2 {
+    font-family: 'Handjet', sans-serif;
+    font-size: 38px;
+    font-weight: 500;
+    margin-top: 50px; 
+    margin-bottom: 10px;
+} 
+
+.project-overview, .user-research p, .definition-ideation p, .prototyping p, .testing-iterating p,.user-research li, .definition-ideation li, .prototyping li, .testing-iterating li{
+    font-size: 17px;
+}
+
+.user-research img, .definition-ideation img, .prototyping img, .testing-iterating img {
+    max-width: 80%;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    margin-top: 20px;
+} 
+
+.post-its {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap; 
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.post-its p {
+    font-size: 1.2vw;
+    width: 180px;
+    height: 90px;
+    padding:  10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.section-container {
+    font-family: 'Abel', sans-serif;
+    max-width: 100% !important;
+    margin-bottom: 60px;
+    padding: 30px;
+    border-radius: 50px;
+}
+
+.section-container img {
+    display: flex;
+    margin: 0 auto;
+    max-width: 70%
+}
+
+.collapse-container button {
+    width: fit-content;
+    height: 50px;
+    background: none;
+    border: solid 2px rgb(37, 69, 85);
+    border-radius: 5px;
+    color: rgb(37, 69, 85);
+    font-family: "Abel", sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 30px auto;
+}
+
+.collapse-container button:hover {
+    border-radius: 5px;
+    border: 1px solid rgb(37, 69, 85);
+    box-shadow: -1px 2px 4px 0px rgba(0, 0, 0, 0.60);
+}
+
+.collapse-container button:focus {
+    outline: none;
+}
+
+.collapse-card-body {
+    margin-bottom: 40px;
+    margin-top: 0;
+}
+
+.link-to-full-cs {
+    font-family: "Abel", sans-serif;
+}
+
+
+/* media for smaller screens */
+@media (max-width: 800px) {
+    .whole-container{
+        margin: auto 5%;
+    }
+
+    .cs-hero-content {
+        width: 100%;
+        padding-bottom: 0 !important;
+    }
+
+    .hero-list {
+        text-align: center;
+    }
+
+    .cs-hero-container {
+        padding-bottom: 10px !important;
+        margin-top: 10%;
+    }
+
+    .cs-hero-content img {
+        width: 400px;
+        margin-top: 20px;
+        padding: 0;
+    }
+    .cs-hero-content h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .hero-list {
+        font-size: 18px;
+    }
+
+    .user-research h2, .definition-ideation h2, .prototyping h2, .testing-iterating h2 {
+        font-size: 35px;
+        margin-top: 40px;
+    }
+
+    .project-overview h4, .user-research h4, .definition-ideation h4, .prototyping h4, .testing-iterating h4 {
+        font-size: 20px !important;
+        font-weight: bold;
+    }
+
+    .project-overview h5, .user-research h5, .definition-ideation h5, .prototyping h5, .testing-iterating h5 {
+        font-size: 18px !important;
+        font-weight: bold;
+        margin-top: 25px !important;
+    }
+
+    .whole-container p, .whole-container h4, .whole-container h5 {
+        font-size: 16px;
+    }
+
+    .collapse-container button {
+        font-size: 12px;
+    }
+
+    .user-research img, .definition-ideation img, .prototyping img, .testing-iterating img {
+        margin: 0 auto;
+        max-width: 100%;
+    }
+
+    .section-container {
+        margin-bottom: 40px;
+    }
+
+    .collapse-container button {
+        font-size: 16px;
+        margin: 0;
+    }
+}
+
+/* media for larger screens */
+@media (min-width: 1800px) {
+    .whole-container {
+        margin: 50px 400px 0px 400px;
+    }
+
+    .cs-hero-content img {
+        width: 60%;
+    }
+
+    .whole-container p, .whole-container li {
+        font-size: 16px;
+    }
+    
+    .whole-container h2 {
+        font-size: 38px;
+    }
+
+    .whole-container h4 {
+        font-size: 22px;
+    }
+
+    .whole-container h5{
+        font-size: 20px;
+    }
+
+    .whole-container h1 {
+        font-size: 50px;
+    }
+
+    .post-its p {
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,439 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* nav */
+.nav-background {
+    border-radius: 20px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    z-index: 2;
+}
+
+nav ul {
+    display: flex;
+    margin: auto;
+    padding: 0;
+} 
+
+nav a {
+    color: black;
+    font-family: 'Handjet', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0 40px;
+}
+
+/* hero */
+.background-container {
+    position: relative;
+}
+
+.background {
+    background: rgb(36,1,74);
+    background: linear-gradient(90deg, rgba(36,1,74,1) 0%, rgba(82,10,144,1) 41%, rgba(0,44,122,1) 100%);    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Adjust the height as needed */
+    position: relative;
+}
+
+.hero-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 40%;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; /* Center the content horizontally */
+    z-index: 1; /* Ensure the hero container is above the background */
+    color: black;
+    padding: 20px;
+    border-radius: 20px;
+    font-family: 'Handjet', sans-serif;
+}
+
+.hero-container h3 {
+    font-weight: 500;
+    font-size: 22px;
+    margin: 10px auto;
+}
+
+.hero-container h1 {
+    font-family: 'Handjet', sans-serif;
+    font-weight: 600;
+    font-size: 60px;
+    margin: 10px auto;
+}
+
+.hero-container button {
+    font-family: 'Handjet', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px auto;
+    padding: 8px 15px;
+    border-radius: 20px;
+}
+
+.hero-container button:focus {
+    outline: none;
+}
+
+.hero-container button:hover, .my-work button:hover {
+    box-shadow: -1px 2px 4px 0px;
+}
+
+/* softwares */
+.softwares{
+    position: relative;
+    margin: 20px 100px 10px 100px;
+    z-index: 1;
+}
+
+.softwares h1, .my-work h1 {
+    font-family: 'Handjet', sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.software-icons {
+    display: flex;
+}
+
+.software-icons img {
+    padding: 0 1.5rem;
+    max-width: 100%; 
+    height: 80px; 
+}
+
+/* my work */
+.my-work {
+    margin: 60px 150px 10px 100px;
+}
+
+.card h5 {
+    font-family: 'Abel', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.card p {
+    font-family: 'Abel', sans-serif;
+    font-size: 18px;
+}
+
+
+.my-work button {
+    font-family: 'Handjet', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-work button:focus {
+    outline: none;
+}
+
+
+/* my skills */
+.my-skills {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-areas:
+    "skill-1"
+    "skill-2"
+    "skill-3";
+    margin: 20px 100px 10px 100px;
+    padding: 5% 0;
+}
+
+.all-skills {
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+}
+
+.my-skills h1 {
+    font-family: 'Handjet', sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.my-skills h5 {
+    font-family: 'Abel', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    color: white;
+}
+
+.skill-1 p, .skill-2 p, .skill-3 p {
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.skill-1-container, .skill-2-container, .skill-3-container {
+    background-color: rgb(17, 24, 39);
+    padding: 2%;
+    margin: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+} 
+
+#arrow-1, #arrow-2, #arrow-3 {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    cursor: pointer; 
+    transition: transform .03s ease;
+}
+
+.rotate {
+    transform: rotate(180deg);
+}
+
+/* footer*/
+footer {
+   margin-top: auto;
+   padding: 40px 10px 10px;
+   position: static;
+   text-align: center;
+   font-family: 'Handjet', sans-serif;
+   border-top: 1px solid rgba(225, 225, 225, 1);
+}
+
+footer h1 {
+    font-weight: 500;
+    font-size: 38px;
+    margin: 10px auto;
+}
+
+footer h3 {
+    font-weight: 500;
+    font-size: 20px;
+    margin: 10px auto;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 0;
+}
+
+/* Scroll-up button */
+#myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px; 
+    z-index: 99;
+    border: none; 
+    outline: none; 
+    cursor: pointer; 
+    padding: 15px; 
+    border-radius: 10px; 
+    background-color: rgb(17, 24, 39);
+    color: white;
+  }
+  
+
+
+
+@media (max-width: 800px) {
+    .body {
+        width: 100% !important;
+    }
+
+    /* responsive nav */
+    .nav-background {
+        width: 90% !important;
+    }
+
+    nav a {
+        margin: 0 25px !important;
+        padding: 5px 0 !important;
+        font-weight: 500 !important;
+        font-size: 25px !important;
+    }
+
+    .nav-background {
+        height: fit-content;
+        padding: 10px 0;
+    }
+
+    /* responsive hero */
+    .background {
+        height: 70vh;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .hero-container {
+        margin: 35% auto;
+        width: 90%;
+    }
+
+    .hero-container h3, footer h3 {
+        font-size: 22px;
+        font-weight: 400;
+    }
+
+    .hero-container h1 {
+        font-size: 38px;
+        font-weight: 600;
+    }
+
+    .hero-container p {
+        font-size: 25px;
+    }
+
+    .hero-container button {
+        font-size: 22px;
+        font-weight: 500;
+        color: black;
+    }
+
+    /* responsive sofwares */
+    .softwares {
+        margin: 25px;
+        height: auto !important;
+    }
+
+    .softwares h1, .my-work h1 {
+        font-size: 38px;
+    }
+
+    .software-icons {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); 
+        gap: 1rem;
+    }
+
+    .software-icons img {
+        padding: 0;
+        height: 80px;
+    }
+
+    /* my work */
+    .my-work {
+        margin: 0 25px;
+        padding-top: 40px;
+    }
+
+    .my-work h1 {
+        font-size: 38px;
+    }
+
+    .card h5 {
+        font-size: 28px;
+        font-weight: 800;
+    }
+    
+    .card p {
+        font-family: 'Abel', sans-serif;
+        font-size: 18px;
+    }
+
+ /* my skills */   
+    .my-skills {
+        margin: 0 25px;
+        padding-top: 40px;
+    }
+    
+    .my-skills h1 {
+        font-size: 38px;
+    }
+
+    .my-skills h2 {
+        font-size: 28px;
+    }
+
+
+    /* responsive footer */
+    footer h1 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    footer h5 {
+        font-weight: 300;
+        font-size: 20px;
+    }
+}
+
+
+/* media for larger screens */
+@media (min-width: 1800px) {
+    .nav-background {
+        width: 50%;
+    }
+    
+    .softwares {
+        margin: 100px 400px 0px 400px;
+    }
+
+    .software-icons img {
+       height: 70px;
+    }
+
+    .hero-container {
+        width: 50%;
+        margin-top: 80px;
+    }
+
+    .my-work {
+        margin: 100px 400px 10px 400px;
+    }
+ 
+    .card {
+        height: auto;
+    }
+    
+    .card h5 {
+        font-size: 25px;
+    }
+
+    .card p {
+        font-size: 16px;
+    }
+
+    .card img {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .my-skills {
+        margin: 20px 400px 10px 400px;
+    }
+
+    .my-skills h5 {
+        font-size: 25px;
+    }
+
+    .my-skills p {
+        font-size: 16px;
+    }
+}

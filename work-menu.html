@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanpreet D Portfolio</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Abel&family=Handjet:wght@100;200;300;400;500;600;700;800;900&display=swap');
+    </style>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="./portfolio.js" defer></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">    
+    <link rel="stylesheet" href="./work-menu.css">
+</head>
+<body>
+    <div class="whole-container">
+
+       <!-- NAVIGATION -->
+    <div class="nav-background fixed top-0 left-1/2 sm:top-6 sm:h-[3.25rem] sm:w-[36rem] sm:rounded-ful" style="background-color: rgb(0, 22, 70);">
+      <nav class="flex fixed top-[0.15rem] left-1/2 h-12 -translate-x-1/2 py-2 sm:top-[1.7rem] sm:h-[initial] sm:py-0">
+          <ul>
+              <a style="color: white; text-decoration: none;" href="./index.html"><li style="text-decoration: none; list-style: none;">Home</li></a>
+              <a style="color: white; text-decoration: none;" href="./about-me.html"><li style="text-decoration: none; list-style: none;">About</li></a>
+              <a style="color: white; text-decoration: none;" href="./work-menu.html"><li style="text-decoration: none; list-style: none;">Work</li></a>
+              <a style=" color: white; text-decoration: none;" href="https://drive.google.com/file/d/15mGdMuccz8ccS6afsANUnZSn1waaqA5V/view?usp=drive_link" target="_blank"><li style="text-decoration: none; list-style: none;">Résumé</li></a>
+            </ul>
+      </nav>
+      </div>
+
+        <!-- Cards -->
+        <section class="card-container">
+            <h1>My work</h1>
+
+            <!-- card 1 -->
+            <div class="card" style="width: 18rem;">
+              <img src="./Images/EasyFits/EasyFits.png" class="card-img-top" style="padding-top: 5px;" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">EasyFits</h5>
+                <p class="card-text">A complete redesign of the website. The previous WordPress website was no longer user friendly, so the solution was to start from scratch.</p>
+                <a href="./easyfits.html" class="btn btn-primary">Read more</a>
+              </div>
+            </div>
+
+             <!-- card 2 -->
+            <div class="card" style="width: 18rem;">
+                <img src="./Images/Travel app.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">The UX of a Travel App</h5>
+                  <p class="card-text">Travel app designed for people looking to explore destinations like a local by understand user's needs/wants and pain-points.</p>
+                  <a href="./travel-app.html" class="btn btn-primary">Read more</a>
+                </div>
+              </div>
+
+             <!-- card 3 -->
+              <div class="card" style="width: 18rem;">
+                <img src="./Images/Non-profit/Non-profit-condensed.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Non-profit website redesign</h5>
+                  <p class="card-text">The Congo Tree website redesign, a group project, included working with stakeholders and their existing guidelines.</p>
+                  <a href="./non-profit.html" class="btn btn-primary">Read more</a>
+                </div>
+              </div>
+              
+               <!-- card 4 -->
+              <div class="card" style="width: 18rem;">
+                <img src="./Images/BorrowBro/BorrowBro-condensed.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">BorrowBro project</h5>
+                  <p class="card-text">Group project aimed to create a platform for borrowing and lending items, with the aim of expanded in the future to an app.</p>
+                  <a href="./borrowbro.html" class="btn btn-primary">Read more</a>
+                </div>
+              </div>
+        </section>
+
+         <!-- FOOTER -->
+    <footer id="footer">
+      <h1>Let's chat!</h1>
+      <h3>Looking for a UX UI designer or want to just chat over some coffee? Shoot me a message!</h3>
+      <h3>Email: tanpreetdhani@gmail.com</h3>
+  <ul class="social-links">
+      <li style="text-decoration: none; list-style: none;"><a href="./index.html"><img src="./Images/home-icon.svg" alt="home logo" width="30px" height="auto"></a></li>
+      <li style="text-decoration: none; list-style: none;"><a href="https://www.linkedin.com/in/tanpreet-dhani-423b97169/" target="_blank"><img src="./Images/brand-linkedin.svg" alt="linkedin logo" width="30px" height="auto"></a></li>
+      <li style="text-decoration: none; list-style: none;"><a href="https://drive.google.com/file/d/15mGdMuccz8ccS6afsANUnZSn1waaqA5V/view?usp=sharing" target="_blank"><img src="./Images/6588143.png" alt="resume logo" width="30px" height="auto"></a></li>
+    </ul>
+  </footer>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+</html>

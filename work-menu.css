@@ -1,0 +1,175 @@
+.whole-container {
+    margin: 20px 100px 10px 100px;
+}
+
+/* nav */
+.nav-background {
+    border-radius: 20px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    z-index: 2;
+}
+
+nav ul {
+    display: flex;
+    margin: auto;
+    padding: 0;
+} 
+
+nav a {
+    color: black;
+    font-family: 'Handjet', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    margin: 0 40px;
+}
+
+/* cards */
+.card-container {
+    margin-top: 10%;
+    margin-bottom: 100px;
+}
+
+.card-container h1 {
+    font-family: 'Handjet', sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.card {
+    margin-top: 30px;
+    background-color:rgb(226, 226, 226);
+    font-family: 'Abel', sans-serif;
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.card h5 {
+    font-weight: 900;
+}
+
+.card a {
+    background-color: rgb(17, 24, 39);
+    border-color: rgb(17, 24, 39);
+}
+
+.card a:hover {
+    background-color: rgb(27, 39, 66);
+    border-color: rgb(27, 39, 66);
+    box-shadow: -1px 2px 4px 0px rgba(0, 0, 0, 0.60);
+}
+
+/* footer*/
+footer {
+    margin-top: auto;
+    padding: 40px 10px 10px;
+    position: static;
+    text-align: center;
+    font-family: 'Handjet', sans-serif;
+    border-top: 1px solid rgba(225, 225, 225, 1);
+ }
+ 
+ footer h1 {
+     font-weight: 500;
+     font-size: 38px;
+     margin: 10px auto;
+ }
+ 
+ footer h3 {
+     font-weight: 300;
+     font-size: 20px;
+     font-weight: 500;
+     margin: 10px auto;
+ }
+ 
+ .social-links {
+     display: flex;
+     justify-content: center;
+     gap: 15px;
+     padding: 0;
+ }
+
+/* media for smaller screens */
+@media (max-width: 800px) {
+    .whole-container{
+        margin: 0 25px;
+    }
+
+     /* responsive nav */
+     .nav-background {
+        width: 90% !important;
+    }
+
+    nav a {
+        margin: 0 25px !important;
+        padding: 5px 0 !important;
+        font-weight: 500 !important;
+        font-size: 25px !important;
+    }
+
+    .nav-background {
+        height: fit-content;
+        padding: 10px 0;
+    }
+
+    .card-container {
+        margin-top: 150px;
+    }
+
+    .card-container h1 {
+        text-align: center;
+    }
+
+    .card h5 {
+        font-weight: 600;
+        font-size: 28px;
+    }
+
+    .card p {
+        font-size: 20px;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        margin: 20px auto;
+        width: 350px !important;
+    }
+
+    .btn {
+        font-size: 20px;
+    }
+
+
+    /* responsive footer */
+    footer h1 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    footer h5 {
+        font-weight: 300;
+        font-size: 20px;
+    }
+    
+}
+
+@media (min-width: 1800px) {
+    .nav-background {
+        width: 40%;
+    }
+
+    .card-container {
+        margin: 150px 200px 100px 200px;
+    }
+}
