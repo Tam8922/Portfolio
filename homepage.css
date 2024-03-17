@@ -47,7 +47,8 @@ nav a {
 
 .background {
     background: rgb(36,1,74);
-    background: linear-gradient(90deg, rgba(36,1,74,1) 0%, rgba(82,10,144,1) 41%, rgba(0,44,122,1) 100%);    background-size: cover;
+    background: linear-gradient(90deg, rgba(36,1,74,1) 0%, rgba(82,10,144,1) 41%, rgba(0,44,122,1) 100%); 
+    background-size: cover;
     background-position: center;
     height: 100vh; /* Adjust the height as needed */
     position: relative;
@@ -193,11 +194,12 @@ nav a {
 }
 
 .skill-1-container, .skill-2-container, .skill-3-container {
-    background-color: rgb(17, 24, 39);
+    background-color: rgb(36,1,74,1);
     padding: 2%;
     margin: 1%;
     margin-top: 2%;
     margin-bottom: 2%;
+    border-radius: 20px;
 } 
 
 #arrow-1, #arrow-2, #arrow-3 {
@@ -401,7 +403,6 @@ footer h3 {
 
     .hero-container {
         width: 50%;
-        margin-top: 80px;
     }
 
     .my-work {
