@@ -286,16 +286,13 @@ footer h3 {
         padding: 10px 0;
     }
 
-    /* responsive hero */
-    .background {
-        height: 70vh;
-        width: 100%;
-        overflow: hidden;
-    }
+ 
 
     .hero-container {
-        margin: 35% auto;
+        margin-top: 20%;
         width: 90%;
+        height: 320px;
+        padding: 0;
     }
 
     .hero-container h3, footer h3 {
@@ -303,19 +300,27 @@ footer h3 {
         font-weight: 400;
     }
 
+    .hero-container h3 {
+        margin: 0;
+    }
+
     .hero-container h1 {
         font-size: 38px;
         font-weight: 600;
+        margin: 0;
     }
 
     .hero-container p {
         font-size: 25px;
+        margin-top: 0;
     }
 
     .hero-container button {
         font-size: 22px;
         font-weight: 500;
         color: black;
+        margin: 0
+    ;
     }
 
     /* responsive sofwares */
@@ -350,13 +355,13 @@ footer h3 {
     }
 
     .card h5 {
-        font-size: 28px;
+        font-size: 22px;
         font-weight: 800;
     }
     
     .card p {
         font-family: 'Abel', sans-serif;
-        font-size: 18px;
+        font-size: 16px;
     }
 
  /* my skills */   
@@ -371,6 +376,14 @@ footer h3 {
 
     .my-skills h2 {
         font-size: 28px;
+    }
+
+    .my-skills h5 {
+        font-size: 22px;
+    }
+
+    .my-skills p {
+        font-size: 16px;
     }
 
 
