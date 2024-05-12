@@ -123,6 +123,42 @@ nav a {
 }
 
 /* my work */
+.seg-button-container {
+   display: inline-flex;
+   gap: 2rem;
+   margin-bottom: 20px;
+}
+
+.seg-button-1, .seg-button-2 {
+    font-family: 'Handjet', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 5px 10px;
+    background-color: rgba(36,1,74,1);
+    color: white;
+    border: none;
+    border-radius: 15px; 
+}
+
+.seg-button-2 {
+    background-color: rgba(136, 135, 135, 0.2);
+    color: black;
+}
+
+.seg-button-1:focus {
+    background-color: rgba(36,1,74,1);
+    font-weight: 600;
+    color: white;
+    outline: none;
+}
+
+.seg-button-2:focus {
+    background-color: rgb(0,44,122,1);
+    font-weight: 600;
+    color: white;
+    outline: none;
+}
+
 .my-work {
     margin: 60px 150px 10px 100px;
 }
@@ -139,7 +175,7 @@ nav a {
 }
 
 
-.my-work button {
+.my-work-button {
     font-family: 'Handjet', sans-serif;
     font-size: 25px;
     font-weight: 500;
@@ -151,7 +187,7 @@ nav a {
     align-items: center;
 }
 
-.my-work button:focus {
+.my-work-button:focus {
     outline: none;
 }
 
