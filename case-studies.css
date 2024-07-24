@@ -32,15 +32,16 @@
     font-weight: 500;
 } 
 
-.project-overview, .user-research, .definition-ideation, .prototyping, .testing-iterating {
+.project-overview, .user-research, .definition-ideation, .prototyping, .testing-iterating, .updates {
     font-family: 'Abel', sans-serif;
 }
 
-.project-overview li, .testing-iterating li {
+.project-overview li, .testing-iterating li, .updates li {
     margin-bottom: 10px;
+    font-size: 17px;
 } 
 
-.user-research h2, .definition-ideation h2, .prototyping h2, .testing-iterating h2 {
+.user-research h2, .definition-ideation h2, .prototyping h2, .testing-iterating h2, .updates h2 {
     font-family: 'Handjet', sans-serif;
     font-size: 38px;
     font-weight: 500;
@@ -48,11 +49,11 @@
     margin-bottom: 10px;
 } 
 
-.project-overview, .user-research p, .definition-ideation p, .prototyping p, .testing-iterating p,.user-research li, .definition-ideation li, .prototyping li, .testing-iterating li{
+.project-overview, .user-research p, .definition-ideation p, .prototyping p, .testing-iterating p, .updates p{
     font-size: 17px;
 }
 
-.user-research img, .definition-ideation img, .prototyping img, .testing-iterating img {
+.user-research img, .definition-ideation img, .prototyping img, .testing-iterating img, .updates img {
     max-width: 80%;
     display: flex;
     margin: 0 auto;
