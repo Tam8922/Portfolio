@@ -41,7 +41,7 @@
     font-size: 17px;
 } 
 
-.user-research h2, .definition-ideation h2, .prototyping h2, .testing-iterating h2, .updates h2 {
+.whole-container h2 {
     font-family: 'Handjet', sans-serif;
     font-size: 38px;
     font-weight: 500;
@@ -49,8 +49,20 @@
     margin-bottom: 10px;
 } 
 
-.project-overview, .user-research p, .definition-ideation p, .prototyping p, .testing-iterating p, .updates p{
-    font-size: 17px;
+.whole-container h4 {
+    font-weight: 900;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.whole-container h5 {
+    font-weight: 600;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.whole-container p{
+    font-size: 18px;
 }
 
 .user-research img, .definition-ideation img, .prototyping img, .testing-iterating img, .updates img {
@@ -70,10 +82,10 @@
 }
 
 .post-its p {
-    font-size: 1.2vw;
-    width: 180px;
-    height: 90px;
-    padding:  10px;
+    font-size: 1.1vw;
+    width: 200px;
+    height: 110px;
+    padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
