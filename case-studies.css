@@ -32,7 +32,7 @@
     font-weight: 500;
 } 
 
-.project-overview, .user-research, .definition-ideation, .prototyping, .testing-iterating, .updates {
+.project-overview, .user-research, .definition-ideation, .prototyping, .testing-iterating, .updates, .ui-work {
     font-family: 'Abel', sans-serif;
 }
 
@@ -56,7 +56,7 @@
 }
 
 .whole-container h5 {
-    font-weight: 600;
+    font-weight: 500;
     text-decoration: underline;
     font-size: 20px;
 }
@@ -65,7 +65,7 @@
     font-size: 18px;
 }
 
-.user-research img, .definition-ideation img, .prototyping img, .testing-iterating img, .updates img {
+.user-research img, .definition-ideation img, .prototyping img, .testing-iterating img, .updates img, .ui-work img {
     max-width: 80%;
     display: flex;
     margin: 0 auto;
