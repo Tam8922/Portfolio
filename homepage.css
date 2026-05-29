@@ -34,7 +34,7 @@ nav ul {
 
 nav a {
     color: black;
-    font-family: 'Handjet', sans-serif;
+    font-family: "Space Grotesk", sans-serif;
     font-size: 25px;
     font-weight: 600;
     margin: 0 40px;
@@ -70,20 +70,21 @@ nav a {
 }
 
 .hero-container h3 {
+    font-family: "Karla", sans-serif;
     font-weight: 500;
     font-size: 22px;
     margin: 10px auto;
 }
 
 .hero-container h1 {
-    font-family: 'Handjet', sans-serif;
+    font-family: "Space Grotesk", sans-serif;
     font-weight: 600;
     font-size: 60px;
     margin: 10px auto;
 }
 
 .hero-container button {
-    font-family: 'Handjet', sans-serif;
+    font-family: "Space Grotesk", sans-serif;
     font-size: 25px;
     font-weight: 500;
     margin: 10px auto;
@@ -107,7 +108,7 @@ nav a {
 }
 
 .softwares h1, .my-work h1 {
-    font-family: 'Handjet', sans-serif;
+    font-family: "Space Grotesk", sans-serif;
     font-size: 38px;
     font-weight: 600;
 }
@@ -137,7 +138,7 @@ nav a {
     z-index: 1;
     opacity: 0;
     transition: opacity 0.3s;
-    font-family: 'Abel', sans-serif;
+    font-family: "Karla", sans-serif;
 }
 
 .tooltip-container:hover .tooltip-text {
@@ -153,7 +154,7 @@ nav a {
 }
 
 .seg-button-1, .seg-button-2 {
-    font-family: 'Handjet', sans-serif;
+    font-family: "Space Grotesk", sans-serif;
     font-size: 22px;
     font-weight: 500;
     padding: 5px 10px;
@@ -187,19 +188,19 @@ nav a {
 }
 
 .card h5 {
-    font-family: 'Abel', sans-serif;
+    font-family: "Karla", sans-serif;
     font-size: 30px;
     font-weight: 800;
 }
 
 .card p {
-    font-family: 'Abel', sans-serif;
+    font-family: "Karla", sans-serif;
     font-size: 18px;
 }
 
 
 .my-work-button {
-    font-family: 'Handjet', sans-serif;
+    font-family: "Space Grotesk", sans-serif;
     font-size: 25px;
     font-weight: 500;
     padding: 8px 15px;
@@ -234,20 +235,20 @@ nav a {
 }
 
 .my-skills h1 {
-    font-family: 'Handjet', sans-serif;
+    font-family: "Space Grotesk", sans-serif;
     font-size: 38px;
     font-weight: 600;
 }
 
 .my-skills h5 {
-    font-family: 'Abel', sans-serif;
+    font-family: "Karla", sans-serif;
     font-size: 30px;
     font-weight: 800;
     color: white;
 }
 
 .skill-1 p, .skill-2 p, .skill-3 p {
-    font-family: 'Abel', sans-serif;
+    font-family: "Karla", sans-serif;
     font-size: 20px;
     color: white;
 }
@@ -281,7 +282,7 @@ footer {
    padding: 40px 10px 10px;
    position: static;
    text-align: center;
-   font-family: 'Handjet', sans-serif;
+   font-family: "Space Grotesk", sans-serif;
    border-top: 1px solid rgba(225, 225, 225, 1);
 }
 
@@ -292,6 +293,7 @@ footer h1 {
 }
 
 footer h3 {
+    font-family: "Karla", sans-serif;
     font-weight: 500;
     font-size: 20px;
     margin: 10px auto;
