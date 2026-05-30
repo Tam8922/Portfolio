@@ -27,11 +27,12 @@ nav ul {
 
 nav a {
     color: black;
-    font-family: 'Handjet', sans-serif;
-    font-size: 25px;
-    font-weight: 400;
+    font-family: "Karla", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
     margin: 0 40px;
 }
+
 
 /* cards */
 .card-container {
@@ -40,8 +41,8 @@ nav a {
 }
 
 .card-container h1 {
-    font-family: 'Handjet', sans-serif;
-    font-size: 38px;
+    font-family: "Karla", sans-serif;
+    font-size: 36px;
     font-weight: 600;
 }
 
@@ -54,12 +55,12 @@ nav a {
 }
 
 .card p {
-    font-family: 'Abel', sans-serif;
+    font-family: "Abel", sans-serif;
 }
 
 .card h5 {
-    font-weight: 900;
-    font-family: 'Abel', sans-serif;
+    font-weight: 600;
+    font-family: "Karla", sans-serif;
 }
 
 .card a {
@@ -76,25 +77,25 @@ nav a {
 
 /* footer*/
 footer {
-    margin-top: auto;
-    padding: 40px 10px 10px;
-    position: static;
-    text-align: center;
-    font-family: 'Handjet', sans-serif;
-    border-top: 1px solid rgba(225, 225, 225, 1);
- }
- 
- footer h1 {
-     font-weight: 500;
-     font-size: 38px;
-     margin: 10px auto;
- }
- 
- footer h3 {
-     font-weight: 300;
-     font-size: 20px;
-     font-weight: 500;
-     margin: 10px auto;
+   margin-top: auto;
+   padding: 40px 10px 10px;
+   position: static;
+   text-align: center;
+   border-top: 1px solid rgba(225, 225, 225, 1);
+}
+
+footer h1 {
+    font-family: "Karla", sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    margin: 10px auto;
+}
+
+footer h3 {
+    font-family: "Karla", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 10px auto;
  }
  
  .social-links {
