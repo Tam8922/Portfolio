@@ -52,11 +52,16 @@ nav a {
     background-position: center;
     height: 100vh; /* Adjust the height as needed */
     position: relative;
+    display: flex;
+}
+
+.hero-image {
+    width: 50%;
 }
 
 .hero-container {
     background-color: rgba(255, 255, 255, 0.8);
-    width: 40%;
+    width: auto;
     position: absolute;
     top: 45%;
     left: 50%;
@@ -67,11 +72,13 @@ nav a {
     padding: 20px;
     border-radius: 20px;
     font-family: "Karla", sans-serif;
+    margin-top: 4vw;
 }
 
 .hero-container h3 {
     font-family: "Karla", sans-serif;
     font-size: 20px;
+    font-weight: 400;
     margin: 10px auto;
 }
 
@@ -100,54 +107,8 @@ nav a {
     box-shadow: -1px 2px 4px 0px;
 }
 
-/* softwares */
-.softwares{
-    position: relative;
-    margin: 20px 100px 10px 100px;
-    z-index: 1;
-}
-
-.softwares h1, .my-work h1, .my-skills h1 {
-    font-family: "Karla", sans-serif;
-    font-size: 36px;
-    font-weight: 600;
-}
-
-.software-icons {
-    display: flex;
-}
-
-.software-icons img {
-    padding: 0 1.5rem;
-    max-width:100%;
-    height: 100px;
-}
-
-.tooltip-container {
-    position: relative;
-    display: inline-block;
-}
-
-.tooltip-text {
-    visibility: hidden;
-    background-color: lightgrey;
-    border-radius: 5px;
-    margin-top: 5px;
-    padding: 5px;
-    position: absolute;
-    z-index: 1;
-    opacity: 0;
-    transition: opacity 0.3s;
-    font-family: "Karla", sans-serif;
-}
-
-.tooltip-container:hover .tooltip-text {
-    visibility: visible;
-    opacity: 1;
-}
 
 /* my work */
-
 .seg-button-container {
    display: inline-flex;
    gap: 2rem;
@@ -222,15 +183,91 @@ nav a {
     outline: none;
 }
 
+.a {
+    text-decoration: none;
+}
+
+
+/* softwares */
+.softwares{
+    position: relative;
+    margin: 20px 100px 10px 100px;
+    z-index: 1;
+    padding-top: 20px;
+}
+
+.softwares h1, .my-work h1, .my-skills h1 {
+    font-family: "Karla", sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.software-icons {
+    display: flex;
+}
+
+.software-icons img {
+    padding: 0 1.5rem;
+    max-width:100%;
+    height: 100px;
+}
+
+.tooltip-container {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip-text {
+    visibility: hidden;
+    background-color: lightgrey;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.3s;
+    font-family: "Karla", sans-serif;
+}
+
+.tooltip-container:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+}
 
 /* my skills */
+
+.post-its {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap; 
+    gap: 20px; 
+    margin-bottom: 30px;
+}
+
+.post-its p {
+    font-family: 'Abel', sans-serif;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+}
+
+
 .my-skills {
     display: grid;
     grid-template-columns: auto;
     grid-template-areas:
     "skill-1"
     "skill-2"
-    "skill-3";
+    "skill-3"
+    "skill-4"
+    "skill-5"
+    "skill-6";
     margin: 20px 100px 10px 100px;
     padding: 5% 0;
 }
@@ -250,7 +287,7 @@ nav a {
     color: white;
 }
 
-.skill-1 p, .skill-2 p, .skill-3 p {
+.skill-1 p, .skill-2 p, .skill-3 p, .skill-4 p, .skill-5 p, .skill-6 p {
     font-family: 'Abel', sans-serif;
     font-size: 20px;
     font-weight: 300;
@@ -258,7 +295,6 @@ nav a {
 }
 
 .skill-container {
-    background-color: rgb(36,1,74,1);
     padding: 2%;
     margin: 1%;
     margin-top: 2%;
@@ -266,7 +302,7 @@ nav a {
     border-radius: 20px;
 } 
 
-#arrow-1, #arrow-2, #arrow-3, #arrow-4 {
+#arrow-1, #arrow-2, #arrow-3, #arrow-4, #arrow-5, #arrow-6 {
     width: 50px;
     height: 50px;
     display: flex;
@@ -351,27 +387,31 @@ footer h3 {
         padding: 10px 0;
     }
 
+    .hero-image {
+        padding-bottom: 10px;  
+    }
 
     .hero-container {
-        margin-top: 20%;
         width: 90%;
-        height: 320px;
-        padding: 10;
+        height: auto;
+        padding: 10px;
     }
 
     .hero-container h3, footer h3 {
         font-size: 18px;
         font-weight: 400;
-        padding-bottom: 5px;    }
+        padding-bottom: 10px;    }
 
     .hero-container h3 {
         margin: 0;
+        padding-bottom: 10px;
     }
 
     .hero-container h1 {
         font-size: 32px;
         font-weight: 600;
         margin: 0;
+         padding-bottom: 10px;
     }
 
     .hero-container p {
@@ -438,8 +478,10 @@ footer h3 {
 
     .my-skills h5 {
         font-size: 22px;
-        padding-top: 5px;
-        padding-left: 5px;
+    }
+
+    .skill-container {
+        padding: 15px;
     }
 
     .my-skills p {

@@ -26,6 +26,20 @@ $('#arrow-4').on('click', () => {
 
 $('#toggle-p-4').hide(); 
 
+$('#arrow-5').on('click', () => {
+  $('#toggle-p-5').slideToggle();
+  $('#arrow-5').toggleClass('rotate');
+});
+
+$('#toggle-p-5').hide(); 
+
+$('#arrow-6').on('click', () => {
+  $('#toggle-p-6').slideToggle();
+  $('#arrow-6').toggleClass('rotate');
+});
+
+$('#toggle-p-6').hide(); 
+
 
 // -------------------------------------------------------------------------------------------
 
@@ -88,3 +102,8 @@ const button2 = document.querySelector('.seg-button-2');
         button1.style.color = 'white'; // Reverted text color for .seg-button-1
     });
 
+
+
+
+
+    
